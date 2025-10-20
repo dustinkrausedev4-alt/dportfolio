@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0f1115;
+  color: #eaeaea;
+  line-height: 1.6;
+}
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: #1b1d24;
+}
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.25rem;
+}
+header p {
+  color: #888;
+  margin-bottom: 1rem;
+}
+nav a {
+  color: #aaa;
+  margin: 0 0.5rem;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+nav a:hover {
+  color: #fff;
+}
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+section {
+  margin-bottom: 2.5rem;
+}
+h2 {
+  color: #fff;
+  border-bottom: 2px solid #333;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+ul {
+  margin-left: 1.5rem;
+}
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 0.5rem;
+}
+.skills-grid span {
+  background: #1f232a;
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 5px;
+  color: #ddd;
+  font-size: 0.9rem;
+}
+.job {
+  background: #1a1d22;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+.job h3 {
+  color: #61dafb;
+}
+.job .date {
+  color: #aaa;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  border-top: 1px solid #333;
+  color: #666;
+  font-size: 0.9rem;
+}
+a {
+  color: #61dafb;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
